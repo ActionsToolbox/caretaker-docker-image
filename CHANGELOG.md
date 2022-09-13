@@ -7,7 +7,11 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.1...HEAD)
 
-- Switched to using a Gemfile + bundle install to allow dependabot to manage changes [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+- Merge branch 'master' of github.com:ActionsToolbox/caretaker-docker-image [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+
+- add GHCR [`[4b59679]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/4b5967912d156165e2e24cd10477cbd159477a95)
+
+- Switched to using a Gemfile + bundle install to allow dependabot to manage changes [`[94badfe]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/94badfe3ffaddf919411db06fe18c3e15f1b4b36)
 
 - chore: caretaker action [`[11568b9]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/11568b921e64f4b96a2971994063ac9a1b05baf4)
 
