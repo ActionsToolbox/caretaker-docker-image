@@ -25,9 +25,10 @@ jobs:
           RELEASE_VERSION="${GITHUB_REF#refs/tags/v}"
 
           echo PUSH=true >> "${GITHUB_ENV}"
-          echo DOCKERHUB_TAGS="${{ env.DOCKERHUB_TAGS }},${{ secrets.DOCKERHUB_ORGANISATION }}/$ {{ secrets.CONTAINER_NAME }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
-          echo GHCR_TAGS="${{ env.GHCR_TAGS }},ghcr.io/${{ secrets.GHCR_ORGANISATION }}/$ {{ secrets.CONTAINER_NAME }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
-
+          {
+            echo DOCKERHUB_TAGS="${{ env.DOCKERHUB_TAGS }},${{ secrets.DOCKERHUB_ORGANISATION }}/$ {{ secrets.CONTAINER_NAME }}:${RELEASE_VERSION}"
+            echo GHCR_TAGS="${{ env.GHCR_TAGS }},ghcr.io/${{ secrets.GHCR_ORGANISATION }}/$ {{ secrets.CONTAINER_NAME }}:${RELEASE_VERSION}"
+          } >> "${GITHUB_ENV}"
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
 
