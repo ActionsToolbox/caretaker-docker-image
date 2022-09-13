@@ -9,6 +9,10 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - more stuff [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
 
+- chore: caretaker action [`[f2208f5]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/f2208f5f94f05b003b357d99e8a35863c20acf90)
+
+- more stuff [`[da9b6ee]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/da9b6ee81d82e9d08166add56d77e2dfe1a5a0f8)
+
 - chore: caretaker action [`[03d90ac]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/03d90ac16d4b33dc0fbb911e45a2396dd703cc31)
 
 ### [v0.0.3](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.2...v0.0.3)
