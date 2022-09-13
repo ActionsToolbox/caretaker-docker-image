@@ -8,10 +8,9 @@ on:
       - 'v*'
 
 env:
-  APPLICATION: caretaker
   PUSH: false
-  DOCKERHUB_TAGS: ${{ secrets.DOCKERHUB_ORGANISATION }}/${{ APPLICATION }}:latest
-  GHCR_TAGS: ghcr.io/${{ secrets.GHCR_ORGANISATION }}/${{ APPLICATION }}:latest
+  DOCKERHUB_TAGS: ${{ secrets.DOCKERHUB_ORGANISATION }}/${{ secrets.CONTAINER_NAME }}:latest
+  GHCR_TAGS: ghcr.io/${{ secrets.GHCR_ORGANISATION }}/${{ secrets.CONTAINER_NAME }}:latest
 
 jobs:
   docker:
@@ -26,8 +25,8 @@ jobs:
           RELEASE_VERSION="${GITHUB_REF#refs/tags/v}"
 
           echo PUSH=true >> "${GITHUB_ENV}"
-          echo DOCKERHUB_TAGS="${{ env.DOCKERHUB_TAGS }},${{ secrets.DOCKERHUB_ORGANISATION }}/$ {{ env.APPLICATION }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
-          echo GHCR_TAGS="${{ env.GHCR_TAGS }},ghcr.io/${{ secrets.GHCR_ORGANISATION }}/$ {{ env.APPLICATION }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
+          echo DOCKERHUB_TAGS="${{ env.DOCKERHUB_TAGS }},${{ secrets.DOCKERHUB_ORGANISATION }}/$ {{ secrets.CONTAINER_NAME }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
+          echo GHCR_TAGS="${{ env.GHCR_TAGS }},ghcr.io/${{ secrets.GHCR_ORGANISATION }}/$ {{ secrets.CONTAINER_NAME }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
