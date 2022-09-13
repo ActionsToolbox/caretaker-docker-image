@@ -54,10 +54,17 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: ${{ env.PUSH }}
-          platforms: linux/amd64,linux/arm64
           tags: |
               ${{ env.DOCKERHUB_TAGS }}
               ${{ env.GHCR_TAGS }}
 
       - name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}
+        run: |
+          echo "Digest"
+          echo ${{ steps.docker_build.outputs.digest }}
+
+          echo "Image ID"
+          echo ${{ steps.docker_build.outputs.imageid }}
+
+          echo "metadata"
+          echo ${{ steps.docker_build.outputs.metadata }}
