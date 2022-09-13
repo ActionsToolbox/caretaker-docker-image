@@ -72,7 +72,7 @@ jobs:
     needs:
       - actionlint
       - awesomebot
-      - handolint
+      - hadolint
       - shellcheck
       - yaml-lint
     runs-on: ubuntu-latest
