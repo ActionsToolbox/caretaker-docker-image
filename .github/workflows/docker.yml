@@ -10,8 +10,8 @@ on:
 env:
   APPLICATION: caretaker
   PUSH: false
-  DOCKERHUB_TAGS: ${{ secrets.DOCKERHUB_ORGANISATION }}/${{ env.APPLICATION }}:latest
-  GHCR_TAGS: ghcr.io/${{ secrets.GHCR_ORGANISATION }}/${{ env.APPLICATION }}:latest
+  DOCKERHUB_TAGS: ${{ secrets.DOCKERHUB_ORGANISATION }}/${{ APPLICATION }}:latest
+  GHCR_TAGS: ghcr.io/${{ secrets.GHCR_ORGANISATION }}/${{ APPLICATION }}:latest
 
 jobs:
   docker:
