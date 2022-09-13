@@ -5,11 +5,17 @@ All notable changes to this project will be documented in this file.
 
 This changelog was automatically generated using [Caretaker](https://github.com/DevelopersToolbox/caretaker) by [Wolf Software](https://github.com/WolfSoftware)
 
-### [v0.0.2](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.1...v0.0.2)
+### [Unreleased](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.2...HEAD)
+
+- add GHCR [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+
+- chore: caretaker action [`[31fb901]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/31fb9012a79e85c94b5a4da144a9198e6ca9292c)
+
+### [v0.0.1](https://github.com/ActionsToolbox/caretaker-docker-image/releases/v0.0.1)
 
 > Released on September, 13th 2022
 
-- chore: caretaker action [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+- chore: caretaker action [`[d2ebf93]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/d2ebf9367cd5ad7e9d1f9262b9e0d598f50c2be7)
 
 - Merge branch 'master' of github.com:ActionsToolbox/caretaker-docker-image [`[658563d]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/658563d47f043e003cf690d82edd84b7e1f22b93)
 
@@ -20,10 +26,6 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 - chore: caretaker action [`[11568b9]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/11568b921e64f4b96a2971994063ac9a1b05baf4)
 
 - chore: caretaker action [`[1c239c1]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/1c239c1d444abfb7a3158aa0b2110f4d2091f263)
-
-### [v0.0.1](https://github.com/ActionsToolbox/caretaker-docker-image/releases/v0.0.1)
-
-> Released on September, 13th 2022
 
 - The initial commit [`[b278525]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/b278525c8970a0d2c6c4901c731b5a60efc71696)
 
