@@ -5,9 +5,13 @@ All notable changes to this project will be documented in this file.
 
 This changelog was automatically generated using [Caretaker](https://github.com/DevelopersToolbox/caretaker) by [Wolf Software](https://github.com/WolfSoftware)
 
-### [Unreleased](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.4...HEAD)
+### [v0.0.5](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.4...v0.0.5)
 
-- more stuff [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+> Released on September, 13th 2022
+
+- chore: caretaker action [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+
+- more stuff [`[b2f691c]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/b2f691c1ab88880c6a413f50c43504810530b772)
 
 - chore: caretaker action [`[f2208f5]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/f2208f5f94f05b003b357d99e8a35863c20acf90)
 
@@ -15,7 +19,7 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - chore: caretaker action [`[03d90ac]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/03d90ac16d4b33dc0fbb911e45a2396dd703cc31)
 
-### [v0.0.3](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.2...v0.0.3)
+### [v0.0.4](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.3...v0.0.4)
 
 > Released on September, 13th 2022
 
@@ -25,7 +29,7 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - chore: caretaker action [`[434f3db]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/434f3dba2e92d92eb99674bdec3f15587da3401b)
 
-### [v0.0.2](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.1...v0.0.2)
+### [v0.0.3](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.2...v0.0.3)
 
 > Released on September, 13th 2022
 
@@ -47,7 +51,7 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - chore: caretaker action [`[31fb901]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/31fb9012a79e85c94b5a4da144a9198e6ca9292c)
 
-### [v0.0.1](https://github.com/ActionsToolbox/caretaker-docker-image/releases/v0.0.1)
+### [v0.0.2](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.1...v0.0.2)
 
 > Released on September, 13th 2022
 
@@ -62,6 +66,10 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 - chore: caretaker action [`[11568b9]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/11568b921e64f4b96a2971994063ac9a1b05baf4)
 
 - chore: caretaker action [`[1c239c1]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/1c239c1d444abfb7a3158aa0b2110f4d2091f263)
+
+### [v0.0.1](https://github.com/ActionsToolbox/caretaker-docker-image/releases/v0.0.1)
+
+> Released on September, 13th 2022
 
 - The initial commit [`[b278525]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/b278525c8970a0d2c6c4901c731b5a60efc71696)
 
