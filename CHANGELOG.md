@@ -9,6 +9,10 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - add GHCR [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
 
+- chore: caretaker action [`[7c897c5]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/7c897c59a77c1faa7c54cedec95d6c46ae20c621)
+
+- add GHCR [`[bdaf996]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/bdaf996c02dd26a5e4b12c3f3067f206c5ee5e2c)
+
 - chore: caretaker action [`[31fb901]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/31fb9012a79e85c94b5a4da144a9198e6ca9292c)
 
 ### [v0.0.1](https://github.com/ActionsToolbox/caretaker-docker-image/releases/v0.0.1)
