@@ -1,5 +1,4 @@
 FROM ruby:3.1.2
 
-ENV PATH=/usr/local/bundle/bin/:$PATH
-
-RUN gem install caretaker
+COPY Gemfile* ./
+RUN gem install bundler && bundle install --jobs=3 --retry=3
