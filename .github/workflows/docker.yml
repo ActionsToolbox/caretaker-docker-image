@@ -8,8 +8,10 @@ on:
       - 'v*'
 
 env:
+  APPLICATION: caretaker
   PUSH: false
-  TAGS: wolfsoftwareltd/caretaker:latest
+  DOCKERHUB_TAGS: ${{ secrets.DOCKERHUB_ORGANISATION }}/${{ env.APPLICATION }}:latest
+  GHCR_TAGS: ghcr.io/${{ secrets.GHCR_ORGANISATION }}/${{ env.APPLICATION }}:latest
 
 jobs:
   docker:
@@ -24,7 +26,8 @@ jobs:
           RELEASE_VERSION="${GITHUB_REF#refs/tags/v}"
 
           echo PUSH=true >> "${GITHUB_ENV}"
-          echo TAGS="wolfsoftwareltd/caretaker:latest,wolfsoftwareltd/caretaker:$RELEASE_VERSION" >> "${GITHUB_ENV}"
+          echo DOCKERHUB_TAGS="${{ env.DOCKERHUB_TAGS }},${{ secrets.DOCKERHUB_ORGANISATION }}/$ {{ env.APPLICATION }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
+          echo GHCR_TAGS="${{ env.GHCR_TAGS }},ghcr.io/${{ secrets.GHCR_ORGANISATION }}/$ {{ env.APPLICATION }}:${RELEASE_VERSION}" >> "${GITHUB_ENV}"
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -51,7 +54,10 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: ${{ env.PUSH }}
-          tags: ${{ env.TAGS }}
+          platforms: linux/amd64,linux/arm64
+          tags: |
+              ${{ env.DOCKERHUB_TAGS }}
+              ${{ env.GHCR_TAGS }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
