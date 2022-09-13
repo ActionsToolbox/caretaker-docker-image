@@ -5,11 +5,17 @@ All notable changes to this project will be documented in this file.
 
 This changelog was automatically generated using [Caretaker](https://github.com/DevelopersToolbox/caretaker) by [Wolf Software](https://github.com/WolfSoftware)
 
-### [v0.0.3](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.2...v0.0.3)
+### [Unreleased](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.3...HEAD)
+
+- add GHCR [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+
+- chore: caretaker action [`[434f3db]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/434f3dba2e92d92eb99674bdec3f15587da3401b)
+
+### [v0.0.2](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.1...v0.0.2)
 
 > Released on September, 13th 2022
 
-- chore: caretaker action [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+- chore: caretaker action [`[b8d4ec6]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/b8d4ec6d31aca5554462b9db93d5e01c818e6167)
 
 - add GHCR [`[8247ae7]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/8247ae76e2864ac9261512b832d2c8f06623dcbb)
 
@@ -27,7 +33,7 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - chore: caretaker action [`[31fb901]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/31fb9012a79e85c94b5a4da144a9198e6ca9292c)
 
-### [v0.0.2](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.1...v0.0.2)
+### [v0.0.1](https://github.com/ActionsToolbox/caretaker-docker-image/releases/v0.0.1)
 
 > Released on September, 13th 2022
 
@@ -42,10 +48,6 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 - chore: caretaker action [`[11568b9]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/11568b921e64f4b96a2971994063ac9a1b05baf4)
 
 - chore: caretaker action [`[1c239c1]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/1c239c1d444abfb7a3158aa0b2110f4d2091f263)
-
-### [v0.0.1](https://github.com/ActionsToolbox/caretaker-docker-image/releases/v0.0.1)
-
-> Released on September, 13th 2022
 
 - The initial commit [`[b278525]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/b278525c8970a0d2c6c4901c731b5a60efc71696)
 
