@@ -9,6 +9,6 @@ LABEL org.opencontainers.image.created="$(date --rfc-3339=seconds --utc)"
 LABEL org.opencontainers.image.source='https://github.com/ActionsToolbox/caretaker-docker-image'
 LABEL org.opencontainers.image.documentation='https://github.com/ActionsToolbox/caretaker-docker-image'
 
-COPY Gemfile* ./
+COPY Gemfile* /
 
-RUN gem install bundler && bundle install --jobs=3 --retry=3
+RUN gem install bundler -v '~> 2.3'  && bundle install --jobs=3 --retry=3
