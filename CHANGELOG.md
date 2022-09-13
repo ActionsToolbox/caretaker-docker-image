@@ -7,7 +7,11 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/ActionsToolbox/caretaker-docker-image/compare/v0.0.5...HEAD)
 
-- Add hadolint [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+- Fix hadolint issues [`[head]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/)
+
+- chore: caretaker action [`[ef64fb4]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/ef64fb4beef006c18af775f9013fd73f3aaa616e)
+
+- Add hadolint [`[952b6ba]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/952b6ba07d88ae0f1ebcdc30e68f0a0d08ab3f20)
 
 - chore: caretaker action [`[368dad4]`](https://github.com/ActionsToolbox/caretaker-docker-image/commit/368dad4d3625055bd6df82342df96be811120552)
 
