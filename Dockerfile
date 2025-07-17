@@ -1,4 +1,4 @@
-FROM ruby:3.4-alpine
+FROM ruby:3.4.5-alpine
 
 LABEL org.opencontainers.image.authors='Wolf Software <containers@wolfsoftare.com>'
 LABEL org.opencontainers.image.vendor='Wolf Software'
